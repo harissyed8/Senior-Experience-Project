@@ -1,0 +1,30 @@
+# Mad Libs by Haris Syed 6/13/21
+
+loop = 1
+
+while (loop < 10):
+
+    # These are variables. In this project, the variables will be the types of words to use in the Mad Lib
+    
+    noun = input("Pick a noun:")
+    plural_noun = input("Pick a plural noun:")
+    noun_two = input("Pick a second noun:")
+    place = input("Pick any place")
+    adjective = input("Pick an adjective (describing word): ")
+    noun_three = input("Pick a third noun:")
+    verb = input("Pick a verb:")
+    verb_two = input("Pick a second verb:")
+    
+    # Mad Lib where types of words are inserted into a story
+    
+    print("--------------------------------------------------------------------------------------------")
+    print("A man and a",noun," were stuck in jail at",place,")
+    print("The man was arrested for",verb," another person")
+    print("The",noun," was arrested for",verb_two," a",noun_two,")
+    print("Their conversation was cut short by some",plural_noun,")
+    print("As they look out their cell, they see a",adjective," shadow moving towards them")
+    print("They turned away in fear. They turn and look, only to see a",noun_three," in front of them")
+    print("They burst out with laughter")
+    print("--------------------------------------------------------------------------------------------")
+    
+    loop = loop + 1
